@@ -32,9 +32,9 @@ brew services start redis  # macOS``
 
 2. Check Video Status
 
-`curl -X GET "http://localhost:8000/video-status/648b5f8c9d7e2a1b3c4d5e6f"`
+`curl -X GET "http://localhost:8000/video-status/{id}"`
 
 3. Get Full Video Metadata
 
-`curl -X GET "http://localhost:8000/video-metadata/648b5f8c9d7e2a1b3c4d5e6f"`
+`curl -X GET "http://localhost:8000/video-metadata/{id}"`
 
