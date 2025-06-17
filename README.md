@@ -7,14 +7,14 @@
 #### Start services:
 
 1. Start MongoDB
-``sudo systemctl start mongod  # Linux
-brew services start mongodb-community  # macOS``
+``sudo systemctl start mongod  # Linux``
+``brew services start mongodb-community  # macOS``
 
-2. Start Redis
-``sudo systemctl start redis-server  # Linux
-brew services start redis  # macOS``
+3. Start Redis
+``sudo systemctl start redis-server  # Linux``
+``brew services start redis  # macOS``
 
-3. Start Celery worker:
+4. Start Celery worker:
 
 `celery -A task.celery_app worker --loglevel=info`
 
